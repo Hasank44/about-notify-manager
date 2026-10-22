@@ -64,7 +64,7 @@ export const metadata = {
         },
     },
     icons: {
-        icon: "/favicon.ico",
+        icon: "/logo.webp",
     },
     verification: {
         google: "XYZ...",

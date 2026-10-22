@@ -46,9 +46,7 @@ const Navbar = () => {
             >
                 <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-3 sm:px-5 lg:px-7">
                     <Link href="/" className="flex items-center gap-2 transition hover:opacity-80">
-                        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-indigo-500 to-purple-500 shadow-lg shadow-indigo-500/30">
-                            <span className="text-sm font-bold text-white">N</span>
-                        </span>
+                        <img src={'/logo.webp'} className="h-8 w-auto rounded-full" alt="logo" />
                         <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-cyan-400 bg-clip-text text-base font-bold text-transparent sm:text-lg">
                             Notify Manager
                         </span>
