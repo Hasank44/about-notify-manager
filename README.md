@@ -38,12 +38,6 @@ npm run build
 | Backend API | https://api-notify-manager.vercel.app |
 | Docs | https://all-notify-manager.vercel.app/docs |
 
-## Sections (planned)
-
-- ✅ Hero (Batch 1)
-- 🔜 Features, How it works, Code examples (Batch 2)
-- 🔜 Pricing, FAQ, Final CTA (Batch 3)
-
 ## Design
 
 Matches the app's design system:
