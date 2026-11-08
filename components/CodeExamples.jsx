@@ -137,8 +137,8 @@ const CodeExamples = () => {
 
     return (
         <section className="relative border-t border-white/5 py-20">
-            <div className="pointer-events-none absolute left-0 top-1/3 h-[400px] w-[400px] rounded-full bg-purple-500/10 blur-[120px]" />
-            <div className="pointer-events-none absolute right-0 top-1/3 h-[400px] w-[400px] rounded-full bg-cyan-500/10 blur-[120px]" />
+            <div className="pointer-events-none absolute left-0 top-1/3 h-[400px] w-[200px] rounded-full bg-purple-500/10 blur-[120px]" />
+            <div className="pointer-events-none absolute right-0 top-1/3 h-[400px] w-[200px] rounded-full bg-cyan-500/10 blur-[120px]" />
             <div className="relative mx-auto max-w-6xl px-3 sm:px-5 lg:px-7">
                 <div className="mx-auto max-w-3xl text-center">
                     <span className="badge-primary text-[11px] uppercase tracking-wider">

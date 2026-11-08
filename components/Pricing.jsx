@@ -93,7 +93,7 @@ const PLANS = [
 const Pricing = () => {
     return (
         <section id="pricing" className="relative border-t border-white/5 py-20">
-            <div className="pointer-events-none absolute left-1/2 top-0 h-[400px] w-[800px] -translate-x-1/2 rounded-full bg-indigo-500/5 blur-[120px]" />
+            <div className="pointer-events-none absolute left-1/2 top-0 h-[400px] md:w-[800px] -translate-x-1/2 rounded-full bg-indigo-500/5 blur-[120px]" />
             <div className="relative mx-auto max-w-7xl px-3 sm:px-5 lg:px-7">
                 <div className="mx-auto max-w-3xl text-center">
                     <span className="badge-primary text-[11px] uppercase tracking-wider">

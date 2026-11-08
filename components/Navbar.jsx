@@ -39,12 +39,9 @@ const Navbar = () => {
     return (
         <>
             <header
-                className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-                        ? "border-b border-white/10 bg-[#0B1220]/90 shadow-lg backdrop-blur-xl"
-                        : "bg-transparent"
-                    }`}
+                className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "border-b border-white/10 bg-[#0B1220]/90 shadow-lg backdrop-blur-xl" : "bg-transparent" }`}
             >
-                <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-3 sm:px-5 lg:px-7">
+                <div className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-3 sm:px-5 lg:px-7">
                     <Link href="/" className="flex items-center gap-2 transition hover:opacity-80">
                         <img src={'/logo.webp'} className="h-8 w-auto rounded-full" alt="logo" />
                         <span className="bg-gradient-to-r from-indigo-400 via-purple-400 to-cyan-400 bg-clip-text text-base font-bold text-transparent sm:text-lg">
