@@ -18,8 +18,7 @@ export default function Image() {
                     flexDirection: "column",
                     alignItems: "center",
                     justifyContent: "center",
-                    background:
-                        "linear-gradient(135deg, #0a0c1a 0%, #0a0c1c 50%, #03030d 100%)",
+                    background: "linear-gradient(135deg, #0a0c1a 0%, #0a0c1c 50%, #03030d 100%)",
                     padding: "80px",
                     color: "#f3f4f6",
                     fontFamily: "sans-serif",
@@ -33,8 +32,7 @@ export default function Image() {
                         width: 900,
                         height: 300,
                         display: "flex",
-                        background:
-                            "radial-gradient(circle, rgba(99,102,241,0.3) 0%, transparent 70%)",
+                        background: "radial-gradient(circle, rgba(99,102,241,0.3) 0%, transparent 70%)",
                         filter: "blur(60px)",
                     }}
                 />
@@ -56,8 +54,7 @@ export default function Image() {
                             height: 64,
                             borderRadius: 16,
                             background: "linear-gradient(135deg, #6366f1 0%, #a855f7 100%)",
-                            boxShadow:
-                                "0 10px 40px rgba(99,102,241,0.4)",
+                            boxShadow: "0 10px 40px rgba(99,102,241,0.4)",
                             fontSize: 36,
                             fontWeight: 800,
                             color: "#ffffff",
@@ -70,8 +67,7 @@ export default function Image() {
                             display: "flex",
                             fontSize: 32,
                             fontWeight: 700,
-                            background:
-                                "linear-gradient(90deg, #818cf8 0%, #c084fc 50%, #22d3ee 100%)",
+                            background: "linear-gradient(90deg, #818cf8 0%, #c084fc 50%, #22d3ee 100%)",
                             backgroundClip: "text",
                             color: "transparent",
                         }}
@@ -92,17 +88,14 @@ export default function Image() {
                     }}
                 >
                     <div
-                        style={{
-                            display: "flex",
-                        }}
+                        style={{ display: "flex" }}
                     >
                         Send Telegram notifications
                     </div>
                     <div
                         style={{
                             display: "flex",
-                            background:
-                                "linear-gradient(90deg, #818cf8 0%, #c084fc 50%, #22d3ee 100%)",
+                            background: "linear-gradient(90deg, #818cf8 0%, #c084fc 50%, #22d3ee 100%)",
                             backgroundClip: "text",
                             color: "transparent",
                         }}
